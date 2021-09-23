@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        body{
+            font-size: 20px;
+            background: paleturquoise;
+        }
+        h1 {
+            font-size: 116px;
+            color: fuchsia;
+            font-family: system-iu;
+            text-align: center;
+        }
+        .img{
+            font-size: 30px;
+
+        }
+        h2{
+            margin: 80px;
+            font-size: 60px;
+            color: blue;
+
+        }
+        table,th,td{
+            text-align: center;
+            border: 2px solid white;
+            border-collapse: collapse;
+        }
+        th,td{
+            background: aquamarine;
+        }
+        p{
+            margin: 30px;
+        }
+        .tiempo{
+            margin: 50px;
+        }
+        .lado{
+            text-align: right; 
+        }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ul class="img">
+            <li><a href="#pasta">Recipe #1 <br>Spaghetti con camarones en salsa de queso</li>
+             <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/pasta.png" width="800"></a>
+             <li><a href="#pinchos">Recipe #2<br>Brochetti mixto a la parrilla</li>
+             <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/shish-kebab.png" width="800"></a>
+             <li><a href="#galletas">Recipe #3<br>Galletas de navidad sin azucar</li>
+             <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/xmas-cookies.png" width="800"></a>
+             <li><a href="#tarta">Recipe #4 <br>Cheesecake con frutos rojos</li>
+              <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/cake.png" width="800"></a>
+        </ul>
+        
+        <h2 id="pasta">Recipe #1</h2>
+        
+        <ul class="tiempo">
+            <li>Time: 40 min</li>
+            <li>Portions: 4</li>
+            <li>Difficulty: Easy</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Quantity</th>
+                    <th>Ingredients</th>
+                </tr><tr>
+                    <td>1</td>
+                    <td>Evaporated Milk Can</td>
+                </tr><tr>
+                    <td>1/4</td>
+                    <td>Teaspoon Garlic powder</td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>Bucket * Chicken bouillon powder</td>
+                </tr><tr>
+                    <td>1/2</td>
+                    <td>Water Mug</td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>Cooked and drained spaghetti pasta package</td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>Tablespoon corn oil</td>
+                </tr><tr>
+                    <td>250 gr</td>
+                    <td>Shrimp cooked without head, peeled and cleaned</td>
+                </tr><tr>
+                    <td>190gr</td>
+                    <td>Cream cheese at room temperature</td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        
+        <p class="Instructions"><strong>Instructions:</strong><br>Heats up:<br>Heat the oil in a pan and fry the shrimp. <br>
+          Liquefy: <br>For the sauce, blend the cream cheese with the Evaporated Milk, the chicken bouillon cube, garlic powder and the water. <br>
+          Saute: <br>Place the spaghetti (previously cooked and drained) and the shrimp in a pan, add the sauce, mix and heat for 5 minutes.
+</p>
+        <p><em>Source: <a target="_blank" href="https://www.recetasnestle.com.mx/recetas/cremas-y-sopas/spaghetti-con-camarones-en-salsa-de-queso">Some recipes websites</a></em></p>
+
+        <h2 id="pinchos">Recipe #2</h2>
+
+        <ul class="tiempo">
+            <li>Time: 30 min</li>
+            <li>Portions: 6</li>
+            <li>Difficulty: Easy</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Quantity</th>
+                    <th>Ingredients</th>
+                </tr><tr>
+                    <td>1 kg</td>
+                    <td>beef tenderloin cut into 3 cm cubes. X 3 cm. Approx.</td>
+                </tr><tr>
+                    <td>1 kg</td>
+                    <td>chicken breasts cut into 3 cm cubes. X 3cm. Approx.</td>
+                </tr><tr>
+                    <td>2</td>
+                    <td>large red bell peppers</td>
+                </tr><tr>
+                    <td>2</td>
+                    <td>large green bell peppers</td>
+                </tr><tr>
+                    <td>4</td>
+                    <td>large onions</td>
+                </tr><tr>
+                    <td>4</td>
+                    <td>large tomatoes</td>
+                </tr><tr>
+                    <td>200 gr</td>
+                    <td>fresh bacon cut into a single piece</td>
+                </tr><tr>
+                    <td>...</td>
+                    <td>to taste salt</td>
+                </tr>
+            </thead>
+        </table>
+        <p><strong>Instructions:</strong>
+            <ol>
+                <li>Wash the vegetables very well.</li>
+                <li>Cut the bell peppers into cubes the same size as the meat cubes, the onion and tomato into wedges<br> and the bacon into medium elongated pieces.</li>
+                <li>On the skewers of brochettes put a loin dice, a cube of red bell pepper and a green one, bacon,<br> a chicken, onion and tomato dice, like this or in the order that you like until the skewer is filled. Do the same with the rest.</li>
+                <li>Bring to the hot grill and cook with about 20 cm. From the embers, covered with aluminum foil or a source to keep<br> the heat and turn them continuously until they are well browned and the vegetables with the meats are cooked ... Be careful, the loin must be juicy.</li>
+                <li>Season with salt and pepper halfway through cooking.</li>
+                <li>If you like, you can brush them during cooking with a dressing such as chimichurri.</li>
+            </ol>
+</p>
+        
+            <p><em>Source: <a target="_blank" href="https://cookpad.com/ar/recetas/97427-brochette-mixto-a-la-parrilla">Some recipes websites</a></em></p>
+
+        <h2 id="galletas">Recipe #3</h2>
+        <ul class="tiempo">
+            <li>Time: 10 min</li>
+            <li>Portions: 40 biscuits</li>
+            <li>Difficulty: Easy</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Quantity</th>
+                    <th>Ingredients</th>
+                </tr><tr>
+                    <td>80 gr</td>
+                    <td>light butter</td>
+                </tr><tr>
+                    <td>1 tablespoon</td>
+                    <td>stevia powder</td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>egg</td>
+                </tr><tr>
+                    <td>1 Teaspoon</td>
+                    <td>vanilla extract</td>
+                </tr><tr>
+                    <td>180 gr</td>
+                    <td>whole wheat flour</td>
+                </tr><tr>
+                    <td>5 gr</td>
+                    <td>baking powder (baking powder)</td>
+                </tr><tr>
+                    <td>...</td>
+                    <td>a pinch of salt</td>
+                </tr>
+            </thead>
+        </table>
+         <p><strong>Instructions:</strong>
+            <ol>
+                <li>In a bowl, mix the ointment butter, at room temperature, with the stevia or the sweetener you want to use.</li>
+                <li>Add the egg and vanilla, and beat well until you have a homogeneous cream.</li>
+                <li>Now it's time to add the dry ingredients, which are flour, yeast and salt.<br> We will add the salt first, and then the sifted flour and yeast. His thing is to add little by little, in several times,<br> while we mix with a cat's tongue so that everything is well integrated.</li>
+                <li>We will knead well, and divide the dough into several balls, depending on the colors we want (one for each color).<br>
+We mix with the coloring, kneading again.</li>
+                <li>We stretch the dough with a rolling pin, putting a little flour on the surface and on the dough, so that the dough does not stick to the rolling pin or the worktop.<br> With a cutter, we are making our cookies. To make the tree balls I have simply taken red dough, made small balls and put them in the corners before baking them.</li>
+                <li>We place the cookies carefully on the baking tray, which we will have covered with greaseproof paper (parchment paper).<br> They don't grow very tall, so don't worry about cookie spacing.
+With the oven previously preheated, we bake the cookies at 180º for 10-13 minutes, depending on the oven.</li>
+                <li>Let cool on a rack, decorate, and voila!</li>
+            </ol>
+</p>
+        
+    <p><em>Source: <a target="_blank" href="https://dulcesdiabeticos.com/galletas-navidad-caseras-sin-azucar/">Some recipes websites</a></em></p>
+
+        <h2 id="tarta">Recipe #4</h2>
+        <ul class="tiempo">
+            <li>Time: 80 min</li>
+            <li>Portions: 8 biscuits</li>
+            <li>Difficulty: Easy</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Quantity</th>
+                    <th>Ingredients</th>
+                </tr><tr>
+                    <td>90 gr</td>
+                    <td>butter melted</td>
+                </tr><tr>
+                    <td>30 </td>
+                    <td>Marías cookies ground</td>
+                </tr><tr>
+                    <td>570 gr</td>
+                    <td>Cream cheese at room temperature</td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>can of condensed milk</td>
+                </tr><tr>
+                    <td>1</td>
+                    <td>Can of Half Cream</td>
+                </tr><tr>
+                    <td>2</td>
+                    <td>Lemons (their zest)</td>
+                </tr><tr>
+                    <td>2</td>
+                    <td>Lemons (their juice)</td>
+                </tr><tr>
+                    <td>21 gr</td>
+                    <td>Gelatin (hydrated in 1/4 cup of water and dissolved in a water bath)</td>
+                </tr><tr>
+                    <td>1/4</td>
+                    <td>cup strawberries</td>
+                </tr><tr>
+                    <td>1/4</td>
+                    <td> cup frozen raspberries</td>
+                </tr><tr>
+                    <td>1/4 </td>
+                    <td>cup frozen blackberries</td>
+                </tr><tr>
+                    <td>1/4</td>
+                    <td>cup frozen blueberries</td>
+                </tr>
+            </thead>
+        </table>
+
+         <p><strong>Instructions:</strong>
+            <ol>
+                <li>Mixture: For the base, mix the butter with the cookies; Empty into a foil-lined ring and cover the bottom with the cookie mixture.</li>
+                <li>Bat: For the filling, beat the cream cheese until smooth, add the Condensed Milk, the Half Cream, the zest and the lemon juice;<br> With the mixer on, add the gelatin little by little. Pour over the base and freeze for 2 hours or until set.</li>
+                <li>Decorate: Garnish with strawberries, raspberries, blackberries, and blueberries, and freeze for an additional 30 minutes.</li>
+            </ol>
+</p>
+        
+    <p><em>Source: <a target="_blank" href="https://www.recetasnestle.com.mx/recetas/postres/cheesecake-sin-horno">Some recipes websites</a></em></p>
+    
+    </body>
+</html>
